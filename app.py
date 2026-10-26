@@ -1,4 +1,3 @@
-"""Окно программы на tkinter. Запуск: python app.py."""
 import tkinter as tk
 import re
 
@@ -13,7 +12,6 @@ SCALENE = 'Это разносторонний треугольник.'
 
 
 def check_triangle(a_text, b_text, c_text):
-    """Сначала проверяет ввод, затем существование и тип треугольника."""
     sides = []
     for text in (a_text, b_text, c_text):
         text = text.strip()
